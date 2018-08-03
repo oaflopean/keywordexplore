@@ -142,7 +142,7 @@ Pull requests are always welcome!
 
 The following `npm` scripts are available for use during development:
 
-Command                    | Use to...
+Command                    | Use t ro...
 ---------------------------|-----------
 `npm run clean`            | Remove the `dist/` files
 `npm run lint`             | Lint the files in `src/`
