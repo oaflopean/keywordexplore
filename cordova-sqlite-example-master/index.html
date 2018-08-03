@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQLite Example</title>
+    <link rel="stylesheet" type="text/css" href="css/ionic.css">
+</head>
+<body>
+    <div class="bar bar-header bar-dark">
+        <h1 class="title">Phonegap SQLite Example</h1>
+    </div>
+    <div style="padding:10px;margin-top:60px;">
+    <button id="createTable" class="button button-block">1. Create Table</button>
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Title</span>
+        <input type="text" id="title" placeholder="your title">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Description</span>
+        <input type="text" id="desc" placeholder="Description">
+      </label>
+      <button id="insert" class="button button-block">2. INSERT</button>
+    </div>
+    <p id="status"></p>
+    <button id="showTable" class="button button-block">3. Show Table</button>
+    No of Rows: <p id="rowCount"></p>
+    <table class="table">
+        <thead>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Desc</th>
+            <th>Action</th>
+        </thead>
+        <tbody id="TableData">
+            
+        </tbody>
+    </table>
+    <button id="DropTable" class="button button-block">Drop Table</button>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
