@@ -2,9 +2,14 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/cordova-sqlite-example-master" />
+      <excludeFolder url="file://$MODULE_DIR$/keywords-icons" />
+      <excludeFolder url="file://$MODULE_DIR$/keywords-icons-large" />
+      <excludeFolder url="file://$MODULE_DIR$/markov-chains-master" />
+      <excludeFolder url="file://$MODULE_DIR$/texts" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
